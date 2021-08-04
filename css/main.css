@@ -411,6 +411,7 @@ header .search-bar-container label:hover{
 }
 .packages .box-container .box .content{
     padding:2rem;
+    text-align: center;
 }
 .packages .box-container .box .content h3{
     font-size:2rem;
