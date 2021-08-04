@@ -42,8 +42,8 @@
             <i class="fas fa-times" id="form-close"></i>
             <form action="">
                 <h3>login</h3>
-                <input type="email" class="box" placeholder="enter your email">
-                <input type="password" class="box" placeholder="enter your password">
+                <input type="email" class="box" placeholder="enter your email" required>
+                <input type="password" class="box" placeholder="enter your password" required>
                 <input type="submit" value="login now" class="btn">
                 <input type="checkbox" id="remember">
                 <label for="remember">remember me</label>
@@ -92,19 +92,19 @@
                 <form action="">
                     <div class="inputBox">
                         <h3>where to</h3>
-                        <input type="text" placeholder="place name">
+                        <input type="text" placeholder="place name" required>
                     </div>
                     <div class="inputBox">
                         <h3>how many</h3>
-                        <input type="number" placeholder="number of guests">
+                        <input type="number" placeholder="number of guests" required>
                     </div>
                     <div class="inputBox">
                         <h3>arrivals</h3>
-                        <input type="date">
+                        <input type="date" required>
                     </div>
                     <div class="inputBox">
                         <h3>leaving</h3>
-                        <input type="date">
+                        <input type="date" required>
                     </div>
                     <input type="submit" class="btn" value="book now">
                 </form>
@@ -138,7 +138,7 @@
                             <i class="far fa-star"></i>
                         </div>
                         <div class="price"> $90.00 <span>$120.00</span> </div>
-                        <a href="#" class="btn">book now</a>
+                        <a href="#book" class="btn">book now</a>
                     </div>
                 </div>
                 <div class="box">
@@ -154,7 +154,7 @@
                             <i class="far fa-star"></i>
                         </div>
                         <div class="price"> $90.00 <span>$120.00</span> </div>
-                        <a href="#" class="btn">book now</a>
+                        <a href="#book" class="btn">book now</a>
                     </div>
                 </div>
                 <div class="box">
@@ -170,7 +170,7 @@
                             <i class="far fa-star"></i>
                         </div>
                         <div class="price"> $90.00 <span>$120.00</span> </div>
-                        <a href="#" class="btn">book now</a>
+                        <a href="#book" class="btn">book now</a>
                     </div>
                 </div>
                 <div class="box">
@@ -186,7 +186,7 @@
                             <i class="far fa-star"></i>
                         </div>
                         <div class="price"> $90.00 <span>$120.00</span> </div>
-                        <a href="#" class="btn">book now</a>
+                        <a href="#book" class="btn">book now</a>
                     </div>
                 </div>
                 <div class="box">
@@ -202,7 +202,7 @@
                             <i class="far fa-star"></i>
                         </div>
                         <div class="price"> $90.00 <span>$120.00</span> </div>
-                        <a href="#" class="btn">book now</a>
+                        <a href="#book" class="btn">book now</a>
                     </div>
                 </div>
                 <div class="box">
@@ -218,7 +218,7 @@
                             <i class="far fa-star"></i>
                         </div>
                         <div class="price"> $90.00 <span>$120.00</span> </div>
-                        <a href="#" class="btn">book now</a>
+                        <a href="#book" class="btn">book now</a>
                     </div>
                 </div>
             </div>
@@ -451,12 +451,12 @@
                 </div>
                 <form action="">
                     <div class="inputBox">
-                        <input type="text" placeholder="name">
-                        <input type="email" placeholder="email">
+                        <input type="text" placeholder="name" required>
+                        <input type="email" placeholder="email" required>
                     </div>
                     <div class="inputBox">
-                        <input type="number" placeholder="number">
-                        <input type="text" placeholder="subject">
+                        <input type="number" placeholder="number" required>
+                        <input type="text" placeholder="subject" required>
                     </div>
                     <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
                     <input type="submit" class="btn" value="send message">
