@@ -1,4 +1,7 @@
 // Start Header Section
+window.onload = function () {
+    window.scrollTo(0, 0);
+}
 let searchBtn = document.querySelector('#search-btn');
 let searchBar = document.querySelector('.search-bar-container');
 window.onscroll = () => {
